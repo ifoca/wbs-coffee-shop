@@ -1,0 +1,106 @@
+body {
+  color: brown;
+}
+
+header {
+  padding: 1rem;
+  border-bottom: 2px solid #29213f;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  padding: 0.2rem;
+  padding-left: 2rem;
+  border-bottom: 2px solid #29213f;
+  background-color: beige;
+}
+
+nav ul li {
+  display: inline;
+  padding-right: 1rem;
+}
+
+nav ul li a {
+  color: inherit;
+}
+
+main {
+  padding: 2rem;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+button {
+  background-color: brown;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: brown;
+}
+
+section ul {
+  list-style: none;
+}
+
+section img {
+  max-width: 100%;
+  background-attachment: scroll;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#contact,
+#feedback-form {
+  border: 2px solid brown;
+  padding: 1rem;
+}
+
+section p {
+  padding: 0.5rem;
+}
+
+@media only screen and (width < 768px) {
+  body {
+    font-size: 60%;
+  }
+
+  header {
+    padding: 0.5rem;
+    border-bottom: 1px solid #29213f;
+  }
+
+  nav {
+    padding: 0.1rem;
+    padding-left: 0.5rem;
+    border-bottom: 1px solid #29213f;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 80%;
+  }
+
+  header {
+    padding: 0.5rem;
+    border-bottom: 1px solid #29213f;
+  }
+
+  nav {
+    padding: 0.1rem;
+    padding-left: 0.5rem;
+    border-bottom: 1px solid #29213f;
+  }
+}
